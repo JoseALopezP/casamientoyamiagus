@@ -8,7 +8,7 @@ const GiftedList = () => {
     const {giftedList, updateGiftedList} = useContext(GiftedListContext);
     useEffect(() =>{
         updateGiftedList()
-    }, [])
+    }, [updateGiftedList])
     return (
         <div>
             <h3>LISTA DE REAGALOS CONFIRMADOS</h3>

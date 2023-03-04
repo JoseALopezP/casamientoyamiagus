@@ -8,7 +8,7 @@ const GiftPageBody = () => {
     const ref = useRef(null);
     useEffect(() =>{
         updateGList()
-    }, [])
+    }, [updateGList])
     const itemType = '';
     const clicked = () =>{
         ref.current?.scrollIntoView({behavior: 'smooth'});

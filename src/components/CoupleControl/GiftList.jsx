@@ -7,7 +7,7 @@ const GiftList = () => {
     const {gList, updateGList} = useContext(GListContext);
     useEffect(() =>{
         updateGList()
-    }, [])
+    }, [updateGList])
     return (
         <div>
             <h3>LISTA DE REAGALOS</h3>

@@ -15,13 +15,13 @@ function App() {
       <ListProvider>
       <GListProvider>
       <GiftedListProvider>
-      <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Dinner/>} />
-        <Route path="/control" element={<CoupleControl/>}/>
-        <Route path="/dcena" element={<After/>} />
-      </Routes>
-      </BrowserRouter>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Dinner/>} />
+            <Route path="/control" element={<CoupleControl/>}/>
+            <Route path="/dcena" element={<After/>} />
+          </Routes>
+        </BrowserRouter>
       </GiftedListProvider>
       </GListProvider>
       </ListProvider>

@@ -7,7 +7,7 @@ const ConfirmedList = () => {
     const {list, updateList} = useContext(ListContext);
     useEffect(() =>{
         updateList();
-    }, [])
+    }, [updateList])
     return (
         <div>
             <h3>LISTA DE CONFIRMADOS</h3>

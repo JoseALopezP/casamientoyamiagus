@@ -12,7 +12,7 @@ const Dinner = () => {
     return (
         <>
             <Introduction/>
-            <Counter time={1670635800000}/>
+            <Counter time={1680382800000}/>
             <Date/>
             <GiftPage/>
             <Footer/>

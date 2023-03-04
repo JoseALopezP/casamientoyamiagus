@@ -4,9 +4,9 @@ import SendGift from './SendGift';
 const TransferBody = () => {
     return (
         <>
-            <p><b>CBU:</b> 1430001713023359200019</p>
-            <p><b>Alias:</b> gabiylucas.bru</p>
-            <p><b>Cuenta:</b> 1302335920001</p>
+            <p><b>CBU:</b> 0000003100003718707102</p>
+            <p><b>Alias:</b> sergio.agustin.m</p>
+            <p><b>CUIT/CUIL:</b> 20384596232 </p>
             <SendGift type={'transferencia'}/>
         </>
     );

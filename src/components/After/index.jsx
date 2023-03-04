@@ -12,7 +12,7 @@ const After = () => {
     return (
         <>
             <Introduction/>
-            <Counter time={1670643000000}/>
+            <Counter time={1680382800000}/>
             <Date/>
             <GiftPage/>
             <Footer/>

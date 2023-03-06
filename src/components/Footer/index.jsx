@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div className='footerBlock'>
             <div className="footerMsg">
-                <h5 className='greenPart'> Por favor, recordá confirmar tu asistencia antes del 17 de noviembre</h5>
+                <h5 className='greenPart'> Por favor, recordá confirmar tu asistencia antes del 24 de marzo</h5>
                 <p className='greenPart'>¡Te esperamos para compartir este momento tan importante de nuestras vidas! </p>
                 <p className='goldenPart'>Yami & Agus</p>
             </div>

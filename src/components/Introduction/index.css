@@ -126,6 +126,7 @@ h4{
     .introductionBlock{
         max-width: 100vw;
         height: 700px;
+        background-size: auto 750px;
     }
     .introductionName1{
         margin: 0;
@@ -142,7 +143,8 @@ h4{
     .introductionBlock{
         max-width: 100vw;
         height: 700px;
-        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% calc(100% - 31px))
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% calc(100% - 31px));
+        background-size: auto 700px;
     }
     h1{
         font-size: 80px;

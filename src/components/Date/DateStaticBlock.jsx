@@ -25,7 +25,7 @@ const DateStaticBlock = () => {
                 <img src="assets/clockIcon.png" alt="Iglesia" />
                 {qDinner ? (<p>19:00</p>):(<p>00:30</p>)}
                 <img src="assets/divider.png" alt="Iglesia" />
-                <p>Elegante Formal</p>
+                <p>Estrictamente formal</p>
             </div>
             <Confirmation qDinner={qDinner}/>
         </div>
